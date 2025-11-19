@@ -1,17 +1,12 @@
-import type { Metadata } from "next";
 import "./globals.css";
 import { TonConnectUIProvider } from "@tonconnect/ui-react";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "KUBA SWAP",
   description: "DEX on TON • Powered by $KUBA",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="th">
       <body>
