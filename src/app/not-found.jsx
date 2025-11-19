@@ -1,9 +1,9 @@
 export default function NotFound() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center text-center p-8">
-      <h1 className="text-6xl font-bold mb-4">404</h1>
-      <p className="text-2xl mb-8">Page Not Found</p>
-      <a href="/" className="text-yellow-400 underline text-xl">กลับหน้าหลัก</a>
+    <main className="min-h-screen flex flex-col items-center justify-center text-center p-8 bg-black text-yellow-400">
+      <h1 className="text-8xl font-bold mb-8">404</h1>
+      <p className="text-3xl mb-8">ไม่พบหน้านี้ครับพี่น้อง</p>
+      <a href="/" className="text-2xl underline">กลับ KUBA SWAP</a>
     </main>
   );
 }
